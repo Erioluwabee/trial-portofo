@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MORAKINYO DEBORAH'S PORTOFOLIO- JUNIOR FRONT END DEVELOPER</title>
+  <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-stone-800">
+
+  <section class="font-sans text-white flex flex-col">
+
+    <div class="bg-[url(/nwwj.jpg)] h-[600px] w-full bg-cover lg:bg-[url(/nwwj.jpg)] bg-cover bg-center lg:block sm:hidden">
+
+          <!--Header Section-->
+        <header  id="home" class="px-2 py-2 lg:px-16 lg:py-6 flex justify-between items-center"> 
+
+          <!--Logotext,icon-->
+          <h2 class="text-4xl">D<span class="font-bold text-5xl">.</span></h2>
+
+          <!--Navbar section for DESKTOP VIEW-->
+          <nav class="hidden lg:block ">
+            <ul class="lg:flex lg:items-center lg:gap-6">
+              <li class="text-[15px] hover:text-stone-600"><a href="#home">Home</a></li>
+              <li class="text-[15px] hover:text-stone-600"><a href="#about">About Me</a></li>
+              <li class="text-[15px] hover:text-stone-600"><a href="#projects">Projects</a></li>
+              <li class="text-[15px] hover:text-stone-600"><a href="#skills">Skills</a></li>
+              <li class="text-[15px] hover:text-stone-600"><a href="#services">Services</a></li>
+              <li class="bg-white text-black px-3 py-1 font-bold rounded-full hover:bg-black hover:text-white"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!--Navbar section for Mobile view,dropdown section-->
+          <div class="relative block lg:hidden">
+            <details>
+              <summary class="list-none cursor-pointer">
+                <img src="images/icon-hamburger.svg" alt="hamburger" class="w-7 h-5 block lg:hidden">
+              </summary>
+
+              <nav class="bg-stone-800 fixed text-stone-white right-2 w-[200px]">
+                <ul class="flex flex-col items-center gap-2 py-2">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li class="bg-white text-black px-4 rounded-full"><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+            </details>
+          </div>
+        </header>
+        <!--First Mini intro-->
+        <div class="mt-[300px] text-center lg:mt-[250px]">
+          <h1 class="text-2xl lg:text-4xl">Hi, I'm Morakinyo Deborah, a front End Developer.
+            I build clean, responsive and engaging websites that bring designs to life.
+          </h1>
+          <button class="px-4 py-2 text-gray-600 bg-white mt-10 rounded-full">Dowmload My Resume</button>
+         
+        </div>
+    </div>
+    
+      <!--Hero Section, About ME-->
+      <section id="about" class="lg:flex lg:flex-row px-4 lg:px-16 mx-auto text-center mt-8">
+        <div class="lg:flex-1">
+          <h2 class="text-center lg:text-enter font-semibold text-4xl">ABOUT ME</h2>
+          <p class="hidden lg:block font-bold lg:text-left mt-4 px-20">Hi, I'm passionate about turning UI designs into
+          user-friendly, responsive websites. With a strong focus on clean codes and user experiences, I craft
+          websites that are not only functional but visually engaging.
+          I deliver high-quality websites that delights users.
+          </p>
+          <p class="text-center block lg:hidden font-bold text-[16px] mt-6 leading-[30px]">Hi, I'm passionate about turning UI designs into
+            user-friendly, responsive websites. With a strong focus on clean codes and user experiences, I craft
+            websites that are not only functional but visually engaging.
+            I deliver high-quality websites that delights users.
+          </p>
+        </div>
+        <!-- <img src="nwwj.jpg" alt="image" class="lg:flex-1 lg:w-[2%]"> -->
+      </section>
+      <hr class="mt-10 shadow-lg">
+
+     <!--Projects Section-->
+      <section id="projects" class="mx-auto py-4 lg:px-16">
+        <h2 class="text-4xl text-center font-semibold">PROJECTS</h2>
+
+        <div class="px-6 mt-6  mx-auto flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4">
+
+          <!--Project 1-->
+          <div class="w-full bg-stone-700  md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+            <div class="h-[200px] w-full overflow-hidden relative">
+              <img src="SCREENSHOTS/Newshomepgae-desktop.png" alt="newspage" class="absolute 
+              w-full min-h-full object-cover object-center ">
+            </div>
+          <div class=" p-4 text-center">
+            <h3 class="text-white text-md font-semibold mb-1">News Homepage</h3>
+            <p class="mb-2 text-sm text-gray-500">A responsive news homepage built with Tailwind CSS, featuring a mobile navigation
+              menu and modern grid layout.
+            </p>
+            <div class="flex gap-3 justify-center mt-3">
+              <a href="https://news-homepageproject.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+              <a href="https://github.com/Erioluwabee/NEWS-HOMEPAGE.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 2-->
+        <div class="w-full bg-stone-700 md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+          <div class="h-[200px] w-full overflow-hidden relative">
+            <img src="SCREENSHOTS/Sunnyside-Destop.png" alt="sunnyside" class="absolute 
+             w-full min-h-full object-cover object-center ">
+          </div>
+          <div class=" p-4 text-center">
+            <h3 class="text-white text-md font-semibold mb-1">Sunnyside Agency landing page</h3>
+            <p class="mb-2 text-sm text-gray-500">An agency landing page built with Tailwind CSS, featuring responsive
+              layouts, image sections and smooth interactive elements.
+            </p>
+            <div class="flex gap-3 justify-center mt-3">
+              <a href="https://sunnyside-landingpage-project.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+              <a href="https://github.com/Erioluwabee/SUNNYSIDE-LANDING-PAGE.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 3-->
+        <div class="w-full bg-stone-700 md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+          <div class="h-[200px] w-full overflow-hidden relative">
+            <img src="SCREENSHOTS/Loopsided-desktop.png" alt="loopsided" class="absolute 
+             w-full min-h-full object-cover object-center ">
+          </div>
+          <div class=" p-4  text-center">
+            <h3 class="text-white text-md font-semibold mb-1">Loopstudio landing page</h3>
+             <p class="mb-2 text-sm text-gray-500">A modern landing page built with Tailwind CSS, featuring
+              responsive layouts, image grids and hover effects.
+            </p>
+            <div class="flex gap-3 justify-center mt-3">
+              <a href="https://the-loopsided-landing-page.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+              <a href="https://github.com/Erioluwabee/THE-LOOPSIDED-LANDING.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 4-->
+        <div class="w-full bg-stone-700 md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+          <div class="h-[200px] w-full overflow-hidden relative">
+            <img src="SCREENSHOTS/Interactive dropdown-desktop.png" alt="dropdown" class="absolute 
+             w-full min-h-full object-cover object-center ">
+          </div>
+          <div class=" p-4  text-center">
+            <h3 class="text-white text-lg font-semibold mb-1">Interactive Remote</h3>
+            <p class="mb-2 text-sm text-gray-500">A responsive navigation project which includes mobile
+              menu using details and summary.
+            </p>
+            <div class="flex gap-3 justify-center mt-3">
+              <a href="https://interactiv-card-remote.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+              <a href="https://github.com/Erioluwabee/INTERACTIVE-CARD-REMOTE.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 5-->
+        <div class="w-full bg-stone-700 md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+          <div class="h-[200px] w-full overflow-hidden relative">
+            <img src="images/newspage.png" alt="portfolio" class="absolute 
+             w-full min-h-full object-cover object-center ">
+          </div>
+          <div class=" p-4  text-center">
+            <h3 class="text-white text-lg font-semibold mb-1">Portfolio</h3>
+            <a href="https://loopside.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+            <a href="https://github.com/Erioluwabee/second-official-guy.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+          </div>
+        </div>
+
+        <!--Project 6-->
+        <div class="w-full bg-stone-700 md:max-w-[100%] lg:max-w-[400px] rounded-lg shadow-lg overflow-hidden ">
+          <div class="h-[200px] w-full overflow-hidden relative">
+            <img src="SCREENSHOTS/Tip calculator-desktop.png" alt="tipcalculator" class="absolute 
+             w-full min-h-full object-cover object-center ">
+          </div>
+          <div class=" p-4  text-center">
+            <h3 class="text-white text-lg font-semibold mb-1">Tip Calculator App</h3>
+            <p class="mb-2 text-sm text-white">A simple calculator app that calculates tip and total 
+              amount per person. Users can select tip percentages or enter a custom value.
+            </p>
+            <div class="flex gap-3 justify-center mt-3">
+              <a href="https://calculator-tip-ap.netlify.app/" class="text-black bg-white rounded-full px-4 py-1">Live</a>
+              <a href="https://github.com/Erioluwabee/TIP-CALCULATOR-APP.git" class="text-blue-200 bg-white rounded-full px-4 py-1">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-10 bg-white text-b">
+
+    <!--Skill Section-->
+    <section id="skills" class="px-6 lg:px-16 lg:flex lg:flex-col mt-6 py-4">
+      <h2 class="text-center text-4xl font-semibold">SKILLS</h2>
+
+      <div class="mt-6 shadow grid grid-cols-3 gap-6 text-center lg:grid lg:grid-cols-7">
+        <!--Skills Icons-->
+        <!--Slill 1-->
+        <div>
+          <img src="images/html.png.png" alt="html" class="w-20 mx-auto">
+          <p>HTML</p>
+        </div>
+
+        <!--Slill 2-->
+        <div>
+          <img src="images/css.png.png" alt="css" class="w-20 mx-auto">
+          <p>CSS</p>
+        </div>
+
+        <!--Slill 3-->
+        <div>
+          <img src="images/javascript.png.png" alt="javascript" class="w-20 mx-auto">
+          <p>JAVASCRIPT</p>
+        </div>
+
+        <!--Slill 4-->
+        <div>
+          <img src="images/tailwind.png.png" alt="tailwind" class="w-20 mx-auto">
+          <p>TAILWIND</p>
+        </div>
+
+        <!--Slill 5-->
+        <div>
+          <img src="images/git.png.png" alt="git" class="w-20 mx-auto">
+          <p>GIT</p>
+        </div>
+
+        <!--Slill 6-->
+        <div>
+          <img src="images/github.png.png" alt="github" class="w-20 mx-auto">
+          <p>GITHUB</p>
+        </div>
+
+        <!--Slill 7-->
+        <div>
+          <img src="images/netlify.png.png" alt="netlify" class="w-20 mx-auto">
+          <p>NETLIFY</p>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-10 bg-white text-bold">
+
+    <!--Services Sections-->
+    <section id="services" class="px-6 py-4 mt-6 md:px-5 lg:px-16 mx-auto lg:py-16">
+      <h2 class="text-center text-4xl font-semibold">SERVICES</h2>
+
+        <h3 class="text-center mt-4 lg:mt-6">I create clean, efficient, and user-friendly websites. Here's what I can do
+          to bring your ideas to life.
+        </h3>
+
+        <div class="flex flex-col gap-2 mx-auto md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-8">
+           <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center">
+              <h2 class="text-2xl font-bold">Responsive Web Development</h2>
+              <p class="text-stone-300 mt-4">I build websites that works and look great on all devices.</p>
+            </div>
+
+            <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center" >
+              <h2 class="text-2xl font-bold">Landing Page  Development</h2>
+              <p class="text-stone-300 mt-4">Clean, modern landing pages designed to convert visitors into customers.</p>
+            </div>
+
+            <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center" >
+              <h2 class="text-2xl font-bold" >Figma to Code Conversion</h2>
+              <p class="text-stone-300 mt-4">I convert UI designs (Figma) into real, functional websites .</p>
+            </div>
+
+            <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center">
+              <h2 class="text-2xl font-bold" >Website UI fixes</h2>
+              <p class="text-stone-300 mt-4">Fix layout issues, spacing problems and resonsiveness bugs</p>
+            </div>
+
+            <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center" >
+              <h2 class="text-2xl font-bold">Basic Website Optimization</h2>
+              <p class="text-stone-300 mt-4">Improve loading speed, performance and clean code structure</p>
+            </div>
+
+            <div class="rounded-2xl p-6 mt-6 bg-stone-700 shadow-lg text-center" >
+              <h2 class="text-2xl font-bold" >Frontend Project Setup</h2>
+              <p class="text-stone-300 mt-4">Setting up clean file structure,and reusable components</p>
+            </div>
+        </div>
+
+        
+    </section>
+    <hr class="mt-10 bg-white text-b">
+
+
+    <footer id="contact" class="px-6 py-4 lg:px-16 lg:flex lg:flex-col lg:py-6 ">
+     <div class="lg:flex lg:justify-between lg:gap-4">
+        <div class="lg:flex-1">
+          <h2 class="mt-10 text-3xl font-semibold hidden lg:block">CONTACT ME</h2>
+          <h2 class="mt-10 text-4xl font-semibold text-center block lg:hidden">CONTACT ME</h2>
+          <p class="text-center block lg:hidden mt-4">I'm always excited to collaborate on new projects or help bring your
+            ideas to life.
+            Whether you have a question, a project proposal,or just want to say hi, feel free to reach out-
+            I'd love to connect!
+          </p>
+          <p class="text-left text-[15px] hidden lg:block  mt-10 text-stone-300">I'm always excited to collaborate on new projects or help bring <br> your
+            ideas to life.
+            Whether you have a question, a project proposal, <br>or just want to say hi, feel free to reach out-
+            I'd love to connect!
+          </p>
+        </div>
+
+
+      <form name="contact" method="post" data-netlify="true" class="mt-4 space-y-4 text-black lg:flex-1">
+
+        <input type="text" name="name" placeholder="Your Name" required
+        class="w-full border p-3 rounded-md mt-4 bg-stone-800 text-black">
+
+         <input type="email" name="email" placeholder="Your Email" required
+        class="w-full border p-3 rounded-md bg-stone-800  text-black">
+
+        <textarea name="message" rows="4" placeholder="Your Message" required
+         class="w-full border p-3 rounded rounded-md bg-stone-800  text-black">
+        </textarea>
+
+        <button type="submit" class="flex mx-auto justify-center lg:flex lg:flex-col 
+          bg-white text-stone-300 px-5 py-2 text-[14px]  rounded-full hover:bg-gray-800">Send Messsage
+        </button>
+      </form>
+     </div>
+     <hr class="mt-10 bg-white shadow">
+
+      <div class="flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-between py-10 lg:items-center lg:gap-6">
+        <h1 class="text-2xl text-center block lg:hidden">MORAKINYO DEBORAH</h1>
+        <h1 class="text-2xl hidden lg:block ">MORAKINYO DEBORAH</h1>
+
+      <div class="mt-6 flex flex-row justify-center gap-4 lg:gap-4">
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <img src="images/icon-instagram.svg" alt="instagram">
+        <img src="images/icon-facebook.svg" alt="facebook">
+      </div>
+    </footer>
+
+  </section>
+</body>
+</html>
